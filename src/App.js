@@ -1,11 +1,11 @@
 import { Route, Switch } from "react-router-dom";
 import MainNavigattion from "./components/layout/MainNavigation";
-import AboutusPage from "./pages/About";
-import ConsultingServicesPage from "./pages/ConsultingServices";
-import ContactUsPage from "./pages/ContactUs";
-import HomePage from "./pages/Home";
-import IndustriesServedPage from "./pages/IndustriesServed";
-import OurProgressPage from "./pages/OurProgress";
+import AboutusPage from "./Hero/About";
+import ConsultingServicesPage from "./Hero/ConsultingServices";
+import ContactUsPage from "./Hero/ContactUs";
+import HomePage from "./Hero/Home";
+import IndustriesServedPage from "./Hero/IndustriesServed";
+import OurProgressPage from "./Hero/OurProgress";
 
 function App() {
   return (
